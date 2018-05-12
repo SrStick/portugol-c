@@ -19,6 +19,5 @@ Em seguida digite:<br/>
  - Para executar o script digite:<br/>
    <code>$ . instala-ptgc</code>
    <br/>
-  <b>Observação:</b> O ponto garante que o script o levará para o diretório do ptgc onde estará o arquivo algoritmo.alg e elimina a necessidade de dar permissão de execução ao script).<br/>
-
-Agora basta editar o arquivo algoritmo.alg, salvar e executar utilizando ./compila (pelo terminal, dentro do diretório do programa).
+   
+ <p>Após a execução do script, perceba que foi criada uma pasta na sua home com o o nome Portugol e dentro dela existe um arquivo  com o nome de <b>algoritmo.alg</b>. Basta editar este arquivo, salvar e executar utilizando <code>./compila</code> (pelo terminal, dentro do diretório do programa).</p>
