@@ -1,7 +1,7 @@
 #!/bin/bash
 rm instala-ptgc
-mkdir  ~/.local/ptgc
-cd ~/.local/ptgc
+mkdir $HOME/Portugol
+cd $HOME/Portugol
 wget https://raw.githubusercontent.com/flavio7co/portugol-c/master/compila.c
 mkdir  ~/.local/share
 mkdir  ~/.local/share/gtksourceview-3.0
@@ -11,9 +11,5 @@ mkdir  ~/.local/share/gtksourceview-2.0/language-specs
 cd  ~/.local/share/gtksourceview-3.0/language-specs/
 wget https://raw.githubusercontent.com/flavio7co/portugol-c/master/ptgc.lang
 cp ptgc.lang ~/.local/share/gtksourceview-2.0/language-specs
-mkdir $HOME/portugol
-cc ~/.local/ptgc/compila.c -o $HOME/portugol/compila
-rm ~/.local/ptgc/compila.c
-cd $HOME/portugol/
+cd $HOME/Portugol
 ./compila preparar
-gedit algoritmo.alg
