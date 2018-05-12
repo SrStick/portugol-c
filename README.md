@@ -1,4 +1,4 @@
-# Portugol-c
+# Portugol-C
 
 O projeto consiste na criação de um software em __Linguagem C__ capaz de converter um algoritmo codificado em __Portugol-C__ (portugol adaptado de acordo com as características da Linguagem C) para a linguagem C. Após a conversão o código é compilado e executado pelo próprio software.
 
